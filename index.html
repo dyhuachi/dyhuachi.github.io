@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>张三的简历</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #eee;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .contact {
+      color: #666;
+      margin-top: 10px;
+    }
+    section {
+      margin-bottom: 25px;
+    }
+    h2 {
+      color: #2c3e50;
+      border-left: 4px solid #3498db;
+      padding-left: 10px;
+    }
+    .job, .education, .project {
+      margin-bottom: 15px;
+    }
+    .time {
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .skill-tag {
+      background: #e0f7fa;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>张三</h1>
+    <div class="contact">
+      📧 zhangsan@email.com | 📱 (+86) 138-0013-8000 |
+      <a href="https://github.com/yourname" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>个人简介</h2>
+    <p>前端开发工程师，热爱 Web 技术，熟悉 HTML/CSS/JavaScript，有 2 年 React 项目经验。注重代码质量与用户体验，希望加入一家技术驱动的团队。</p>
+  </section>
+
+  <section>
+    <h2>教育背景</h2>
+    <div class="education">
+      <h3>北京大学 · 计算机科学与技术</h3>
+      <div class="time">2018.09 – 2022.06</div>
+      <p>学士学位，GPA: 3.7/4.0</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>工作经历</h2>
+    <div class="job">
+      <h3>前端开发工程师 · 腾讯科技</h3>
+      <div class="time">2022.07 – 至今</div>
+      <ul>
+        <li>负责企业级管理后台开发，使用 React + TypeScript</li>
+        <li>优化页面加载速度，首屏性能提升 40%</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>技能</h2>
+    <div class="skills">
+      <span class="skill-tag">HTML/CSS</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">TypeScript</span>
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Webpack</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>项目作品</h2>
+    <div class="project">
+      <h3><a href="https://github.com/yourname/todo-app" target="_blank">Todo 任务管理应用</a></h3>
+      <p>基于 React 的任务管理工具，支持本地存储和拖拽排序。</p>
+    </div>
+  </section>
+
+</body>
+</html>
