@@ -1,125 +1,146 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>赵吉峰</title>
+  <meta charset="UTF-8">
+  <title>赵吉峰 - 个人简历</title>
   <style>
     body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-family: "Microsoft YaHei", sans-serif;
       line-height: 1.6;
+      margin: 40px auto;
       max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #f9f9f9;
+      padding: 0 20px;
       color: #333;
     }
-    header {
-      text-align: center;
-      margin-bottom: 30px;
-      padding-bottom: 20px;
-      border-bottom: 2px solid #eee;
+    h1, h2, h3 {
+      color: #2c3e50;
     }
     h1 {
-      font-size: 2.5em;
-      margin: 0;
-    }
-    .contact {
-      color: #666;
-      margin-top: 10px;
-    }
-    section {
-      margin-bottom: 25px;
+      text-align: center;
+      margin-bottom: 20px;
     }
     h2 {
-      color: #2c3e50;
-      border-left: 4px solid #3498db;
-      padding-left: 10px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 5px;
+      margin-top: 30px;
     }
-    .job, .education, .project {
-      margin-bottom: 15px;
+    .section {
+      margin-bottom: 25px;
     }
-    .time {
-      color: #7f8c8d;
-      font-size: 0.9em;
+    ul {
+      padding-left: 20px;
     }
-    a {
-      color: #3498db;
-      text-decoration: none;
+    li {
+      margin-bottom: 8px;
     }
-    a:hover {
-      text-decoration: underline;
-    }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-    .skill-tag {
-      background: #e0f7fa;
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 0.9em;
+    .project-time, .job-time {
+      font-weight: bold;
+      color: #2980b9;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>赵吉峰</h1>
-    <div class="contact">
-      📧 515648571@qq.com | 📱 (+86) 188-3502-0049 |
-      <a href="https://github.com/yourname" target="_blank">GitHub</a> |
-      <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a>
-    </div>
-  </header>
 
-  <section>
-    <h2>个人简介</h2>
-    <p>前端开发工程师，热爱 Web 技术，熟悉 HTML/CSS/JavaScript，有 2 年 React 项目经验。注重代码质量与用户体验，希望加入一家技术驱动的团队。</p>
-  </section>
+  <h1>赵吉峰 - 个人简历</h1>
 
-  <section>
+  <div class="section">
+    <h2>基本信息</h2>
+    <p>姓名：赵吉峰　　民族：汉<br>
+       电话：18835020049　　邮箱：515648571@qq.com<br>
+       出生年月：2001.08　　政治面貌：团员<br>
+       毕业院校：太原理工大学　　学历：本科</p>
+  </div>
+
+  <div class="section">
     <h2>教育背景</h2>
-    <div class="education">
-      <h3>太原理工大学 · 信息与计算科学</h3>
-      <div class="time">2020.09 – 2024.06</div>
-      <p>学士学位，GPA: 3.7/4.0</p>
-    </div>
-  </section>
+    <p><strong>2020.09 – 2024.06</strong>　太原理工大学　信息与计算科学（本科）</p>
+    <p><strong>主修课程：</strong>数学分析、高等代数、解析几何、程序设计技术基础 A、复变函数、数学建模、Java程序设计、实变函数与泛函分析、概率论与数理统计、操作系统、数据库原理及其应用、数值分析、计算机硬件基础、机器学习、高级语言程序设计(Python)、微分方程数值解、计算机通信与网络、数学物理方程、高性能计算等。</p>
+  </div>
 
-  <section>
+  <div class="section">
     <h2>工作经历</h2>
-    <div class="job">
-      <h3>视觉算法工程师 · 山东力山特智能科技股份有限公司</h3>
-      <div class="time">2024.04 – 2025.08</div>
-      <ul>
-        <li>负责制定数据集标注、处理规范，对接视觉需求设计对应的网络训练部署模型</li>
-        <li>设计编写数据增强、数据批处理等自动化工具供内部使用</li>
-        <li>焊缝识别准确率达到95%</li>
-      </ul>
-    </div>
-  </section>
+    <p><strong>2024.04 – 至今</strong>　山东力山特智能科技股份有限公司　视觉研发员</p>
+    <ul>
+      <li>负责制定视觉识别相关规范，如数据集格式、数据集标注等规范</li>
+      <li>对接项目视觉识别需求，设计数据集和对应的神经网络，训练和部署模型</li>
+      <li>开发和人工智能项目相关的工具软件，提升项目效率，如：数据增强处理软件，数据集批处理软件，深度模型测试工具等</li>
+    </ul>
+  </div>
 
-  <section>
-    <h2>技能</h2>
-    <div class="skills">
-      <span class="skill-tag">Python</span>
-      <span class="skill-tag">强化学习</span>
-      <span class="skill-tag">计算机视觉</span>
-      <span class="skill-tag">大模型</span>
-      <span class="skill-tag">ASR</span>
-      <span class="skill-tag">TTS</span>
-      <span class="skill-tag">Git</span>
-    </div>
-  </section>
+  <div class="section">
+    <h2>项目经历</h2>
 
-  <section>
-    <h2>项目作品</h2>
-    <div class="project">
-      <h3><a href="https://github.com/yourname/todo-app" target="_blank">Todo 任务管理应用</a></h3>
-      <p>基于 React 的任务管理工具，支持本地存储和拖拽排序。</p>
-    </div>
-  </section>
+    <h3>智能移动焊接机器人</h3>
+    <p class="project-time">时间：2024.03 – 2024.12</p>
+    <ul>
+      <li>视觉相关代码开发，使用 CNN 网络进行视觉识别高精度焊缝，进行 2D 到 3D 的位置匹配</li>
+      <li>开发基于视觉的智能位姿引导计算模块（根据 2D 和 3D 视图寻找合适的焊接位姿）</li>
+    </ul>
+
+    <h3>荏原环境</h3>
+    <p class="project-time">时间：2024.06 – 2024.12</p>
+    <ul>
+      <li>视觉相关代码开发，给出相关的视觉方案，对定制工件焊缝进行高精度识别</li>
+      <li>设计数据集、相应的神经网络，进行训练、微调以及后处理和部署</li>
+    </ul>
+
+    <h3>基于强化学习解决穿越沙漠问题</h3>
+    <p class="project-time">时间：2022.02 – 2022.06</p>
+    <ul>
+      <li>环境描述：智能体拥有一定的初始资源，每天有不同的天气状况，不同的天气状况消耗的资源不同</li>
+      <li>目标：要求智能体在规定时间内以最少资源消耗到达终点</li>
+      <li>动作空间：['u', 'd', 'l', 'r', 's'] 五种</li>
+      <li>奖励信号：经过多次调整，找到了合适的奖励值</li>
+      <li>算法：基于值函数的 DQN 算法（状态空间极大，约 8500 亿个状态）</li>
+      <li>实施计划：多次简化问题，从简单场景逐步扩展，最终找到合适的参数和策略</li>
+    </ul>
+
+    <h3>基于 ADNI 临床数据判断阿尔兹海默症</h3>
+    <p class="project-time">时间：2022.06 – 2022.09</p>
+    <ul>
+      <li>数据收集：从 https://adni.loni.usc.edu 收集临床数据</li>
+      <li>特征工程：数据清洗、特征提取与转换，离散特征独热编码等</li>
+      <li>模型构建：基于 ANN 构建多层感知器（MLP）模型，使用相关性分析筛选输入特征</li>
+      <li>模型训练与验证：使用交叉熵损失函数和反向传播，划分训练/验证集</li>
+      <li>模型评估：验证集准确率达 98.5%</li>
+    </ul>
+
+    <h3>使用时序模型预测某路段车流量</h3>
+    <p class="project-time">时间：2022.09 – 2022.11</p>
+    <ul>
+      <li>数据收集：组织历史车流量为时间序列格式</li>
+      <li>数据预处理：缺失值、异常值处理，平稳性检验等</li>
+      <li>特征工程：提取季节性特征（日/周/月），考虑天气、节假日等外部因素</li>
+      <li>模型选择：采用 RNN 进行时序建模</li>
+      <li>模型训练与验证：划分数据集，训练并评估</li>
+      <li>模型评估：通过超参调优，准确率达 85.3%</li>
+      <li>预测应用：支持小时/天/周/月粒度的车流量预测，用于交通管理</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>校园经历</h2>
+    <ul>
+      <li><strong>大一：</strong>学习爬虫（Xpath、UA代理、协程、异步、线程池、接口调用）；掌握有监督学习（KNN、Logistic回归、决策树、SVM、朴素贝叶斯、Adaboost、K均值聚类、PCA）</li>
+      <li><strong>大二：</strong>跟随导师学习强化学习（K摇臂赌博机、Bellman方程、蒙特卡洛、时间差分、DQN、Double-DQN、Prioritized DQN、Dueling-DQN）</li>
+      <li><strong>大三：</strong>深入学习深度神经网络（DNN、BP、CNN、ANN），并接触蚁群算法、模拟退火等优化算法</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>证书荣誉</h2>
+    <ul>
+      <li>普通话二级乙等</li>
+      <li>大学英语四级（CET-4），具备良好的听说读写能力，可快速阅读英文专业资料</li>
+      <li>院校级一等奖学金</li>
+      <li>2024年华为昇腾 AI 创新大赛济南赛区 - 公司赛道铜奖（队长）</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>自我评价</h2>
+    <p>踏实能干、积极向上、乐于助人、是个好人。</p>
+  </div>
 
 </body>
 </html>
